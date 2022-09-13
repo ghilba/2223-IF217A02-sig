@@ -34,5 +34,4 @@ koordinat | poin | [654.03794 -9.97286793]
 
 ## Mockup UX
 ![Destinasi](https://user-images.githubusercontent.com/85231569/189799232-cb7f4958-2192-431c-8676-67270b2baccb.png)
-
 ![Beranda -2](https://user-images.githubusercontent.com/85231569/189799813-6f8509e3-de89-497e-b186-a91e400eb24a.png)
