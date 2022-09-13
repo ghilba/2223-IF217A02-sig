@@ -16,7 +16,7 @@
 ### User
 Nama Atribut | Tipe Data | Contoh
 ---|---|---
-UUID | string | 01
+UUID | string | ghr947yh20883
 Nama | string | Ghilba
 email | varchar | ghilbaqintha@gmail.com
 password | varchar | ghilba28
