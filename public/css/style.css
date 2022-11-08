@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+
+
+* {
+    /* margin: 0;
+	padding: 0;
+	box-sizing: border-box; */
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    background-color: #1A3C40;
+}
+
+.button {
+    width: 233px;
+    height: 34px;
+    background-color: #417D7A;
+    border-radius: 20px;
+    filter: drop-shadow(0px 2px 2px black);
+}
+
+.button_search {
+    border-radius: 20px;
+}
+
+.button_cari {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.container-1 {
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-1 input#search{
+    /* width: 300px; */
+    /* height: 50px; */
+    /* background: #2b303b; */
+    font-size: 10pt;
+    float: left;
+    /* color: #63717f; */
+    /* padding-left: 45px; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 20px;
+    
+  }
+
+  .container-1 .magnifier_icon{
+    position: absolute;
+    /* top: 50%; */
+    margin-left: 10px;
+    margin-top: 5px;
+    /* z-index: 1; */
+    /* color: #4f5b66; */
+}
+
+.container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: #ffffff;
+  }
+
+.destination_img {
+    width: auto;
+    height: auto;
+    margin-right: 24px;
+    margin-bottom: -12px;
+}
+
+.navbar-nav{
+    margin-right: -80px;
+}
+.nav-link {
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+#button {
+    background-color: #417D7A;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+/* maps styling */
+.text-center {
+    text-align: center;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+section {
+    min-height: 600px;
+}
+
+.destination {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    position: absolute;
+    width: 302px;
+    height: 36px;
+    left: 569px;
+    top: 590px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #1A3C40;
+    line-height: 36px;
+}
+
+.destination hr {
+    width: 250px;
+    margin-left: 25px;
+    border-top: 4px solid #417D7A;
+    border-radius: 2px;
+}
+
+/* CARD */
+.card {
+    position: absolute;
+    background:#EDE6DB;
+    border-radius: 10px;
+
+    width: 233px;
+    height: 242px;
+}
+
+.card .card-img-top{
+    border-radius: 10px;
+    width: 233px;
+    height: 133px;
+}
+
+.card .card-title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px; 
+    /* width: 135px;   
+    height: 19px; */
+    color: #1A3C40;
+}
+
+.card .card-text {
+    /* width: 103px;
+    height: 12px;  */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+
+#buttonBtn {
+    background: #D9D9D9;
+    margin-top: -25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    /* width: 85px;
+    height: 21px; */
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #000000;
+}
