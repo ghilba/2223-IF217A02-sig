@@ -28,7 +28,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <a class="navbar-brand" href="/home">
+        <a class="navbar-brand" href="/">
           <img class="destination_img" src="{{ asset('/img/beranda/eufloria1.png') }}" alt="...">
         </a>
         {{-- search --}}
