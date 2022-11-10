@@ -96,6 +96,7 @@
         layers: [peta1]
       });
 
+
       var baseMaps = {
         "OpenStreetMap": peta1,
         "Satelite": peta2,
