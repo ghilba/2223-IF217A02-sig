@@ -70,6 +70,7 @@
 		id: 'mapbox/streets-v11'
 	});
 
+
       var peta2 = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
           // attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
           //   '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
@@ -90,8 +91,8 @@
         });
 
       var map = L.map('map', {
-        center: [-2.548926, 118.0148634],
-        zoom: 5,
+        center: [-6.760978,108.4869557],
+        zoom: 30,
         layers: [peta1]
       });
 

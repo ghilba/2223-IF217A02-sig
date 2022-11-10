@@ -38,6 +38,8 @@ class UserSeeder extends Seeder
             'email' => 'user@role.test',
             'password' => bcrypt('123123')
         ]);
-        $user->assignRole('user');
+
     }
+    
+
 }
