@@ -14,21 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
 
-Route::get('/berita', function () {
-    return view('berita');
-});
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/destinasi', function () {
-    return view('destinasi');
-});
-
-Route::get('/kontak', function () {
-    return view('kontak');
-});
-
-// Route::get('/', [MapController::class, 'index']);
-
-
+require __DIR__.'/auth.php';
