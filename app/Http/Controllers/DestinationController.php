@@ -12,9 +12,13 @@ class DestinationController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+        $search = $request->search;
+        return view('transaction', [
+            'search' => $search,
+            
+        ]);
     }
 
     /**
@@ -24,7 +28,7 @@ class DestinationController extends Controller
      */
     public function create()
     {
-        //
+        return view('dashboard.destination.create');
     }
 
     /**
@@ -35,7 +39,18 @@ class DestinationController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'title' => 'required',
+            'description' => 'required',
+            'city' => 'required',
+            'province' => 'required',
+            'country' => 'required',
+            'coordinates' => 'required',
+            'file_path' => '',
+        ]);
+        Destination::create($validatedData);
+        return redirect('/transaction')->with('success', 'New transaction has been added!');
+
     }
 
     /**
@@ -46,7 +61,7 @@ class DestinationController extends Controller
      */
     public function show(Destination $destination)
     {
-        //
+       //
     }
 
     /**
@@ -57,7 +72,9 @@ class DestinationController extends Controller
      */
     public function edit(Destination $destination)
     {
-        //
+        return view('dashboard.destination.edit', [
+            'transaction' => $destination
+        ]);
     }
 
     /**
@@ -69,7 +86,19 @@ class DestinationController extends Controller
      */
     public function update(Request $request, Destination $destination)
     {
-        //
+        $validatedData = $request->validate([
+            'title' => 'required',
+            'description' => 'required',
+            'city' => 'required',
+            'province' => 'required',
+            'country' => 'required',
+            'coordinates' => 'required',
+            'file_path' => '',
+        ]);
+        Destination::where('id', $destination->id)
+            ->update($validatedData);
+
+        return redirect('/transaction')->with('success', 'Data sudah terupdate!');
     }
 
     /**
