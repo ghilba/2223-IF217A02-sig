@@ -15,7 +15,8 @@ class DestinationController extends Controller
     public function index(Request $request)
     {
         $search = $request->search;
-        return view('transaction', [
+        return("View Destination");
+        return view('dashboard.destination.index', [
             'search' => $search,
             
         ]);
@@ -28,7 +29,7 @@ class DestinationController extends Controller
      */
     public function create()
     {
-        return view('dashboard.destination.create');
+        return view('dashboard.createdestination');
     }
 
     /**
@@ -39,6 +40,7 @@ class DestinationController extends Controller
      */
     public function store(Request $request)
     {
+        
         $validatedData = $request->validate([
             'title' => 'required',
             'description' => 'required',
@@ -49,7 +51,7 @@ class DestinationController extends Controller
             'file_path' => '',
         ]);
         Destination::create($validatedData);
-        return redirect('/transaction')->with('success', 'New transaction has been added!');
+        return redirect('/destination')->with('success', 'New transaction has been added!');
 
     }
 
@@ -61,7 +63,9 @@ class DestinationController extends Controller
      */
     public function show(Destination $destination)
     {
-       //
+        return view('dashboard.showdestination',[
+            'destination' => $destination
+        ]);
     }
 
     /**
@@ -72,8 +76,8 @@ class DestinationController extends Controller
      */
     public function edit(Destination $destination)
     {
-        return view('dashboard.destination.edit', [
-            'transaction' => $destination
+        return view('dashboard.editdestination', [
+            'destination' => $destination
         ]);
     }
 
@@ -98,7 +102,7 @@ class DestinationController extends Controller
         Destination::where('id', $destination->id)
             ->update($validatedData);
 
-        return redirect('/transaction')->with('success', 'Data sudah terupdate!');
+        return redirect('/destination')->with('success', 'Data sudah terupdate!');
     }
 
     /**
@@ -109,6 +113,8 @@ class DestinationController extends Controller
      */
     public function destroy(Destination $destination)
     {
-        //
+        Destination::destroy($destination->id);
+        return redirect('/destination')->with('deleted', 'Data berhasil dihapus!');
+
     }
 }
