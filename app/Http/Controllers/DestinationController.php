@@ -16,7 +16,7 @@ class DestinationController extends Controller
     {
         $search = $request->search;
         return("View Destination");
-        return view('dashboard.destination.index', [
+        return view('destination.index', [
             'search' => $search,
             
         ]);
@@ -29,7 +29,7 @@ class DestinationController extends Controller
      */
     public function create()
     {
-        return view('dashboard.createdestination');
+        return view('destination.create');
     }
 
     /**
@@ -63,7 +63,7 @@ class DestinationController extends Controller
      */
     public function show(Destination $destination)
     {
-        return view('dashboard.showdestination',[
+        return view('destination.show',[
             'destination' => $destination
         ]);
     }
@@ -76,7 +76,7 @@ class DestinationController extends Controller
      */
     public function edit(Destination $destination)
     {
-        return view('dashboard.editdestination', [
+        return view('destination.edit', [
             'destination' => $destination
         ]);
     }

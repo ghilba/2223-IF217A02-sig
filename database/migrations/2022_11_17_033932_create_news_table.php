@@ -19,9 +19,9 @@ return new class extends Migration
             $table->text('content');
             $table->date('date_posted');
             $table->date('date_updated');
-            $table->int('status');
-            $table->int('author_id');
-            $table->int('category_id');
+            $table->integer('status');
+            $table->integer('author_id');
+            $table->integer('category_id');
             $table->timestamps();
         });
     }

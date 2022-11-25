@@ -12,9 +12,14 @@ class NewsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+        $search = $request->search;
+        return("View News");
+        return view('news.index', [
+            'search' => $search,
+            
+        ]);
     }
 
     /**
@@ -24,7 +29,7 @@ class NewsController extends Controller
      */
     public function create()
     {
-        //
+        return view('news.create');
     }
 
     /**
@@ -35,7 +40,18 @@ class NewsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'title' => 'required',
+            'content' => 'required',
+            'status' => 'required',
+            'author_id' => 'required',
+            'category_id' => 'required',
+            'date_posted' => 'required',
+            'date_updated' => 'required',
+        ]);
+        News::create($validatedData);
+        return redirect('/news')->with('success', 'New transaction has been added!');
+
     }
 
     /**
@@ -46,7 +62,9 @@ class NewsController extends Controller
      */
     public function show(News $news)
     {
-        //
+        return view('news.show', [
+            'news' => $news
+        ]);
     }
 
     /**
@@ -57,7 +75,9 @@ class NewsController extends Controller
      */
     public function edit(News $news)
     {
-        //
+        return view('news.edit', [
+            'news' => $news
+        ]);
     }
 
     /**
@@ -69,7 +89,17 @@ class NewsController extends Controller
      */
     public function update(Request $request, News $news)
     {
-        //
+        $validatedData = $request->validate([
+            'title' => 'required',
+            'content' => 'required',
+            'status' => 'required',
+            'author_id' => 'required',
+            'category_id' => 'required',
+        ]);
+        News::where('id', $news->id)
+            ->update($validatedData);
+
+        return redirect('/news')->with('success', 'Data sudah terupdate!');
     }
 
     /**
@@ -80,6 +110,7 @@ class NewsController extends Controller
      */
     public function destroy(News $news)
     {
-        //
+        News::destroy($news->id);
+        return redirect('/news')->with('deleted', 'Data berhasil dihapus!');
     }
 }
