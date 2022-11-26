@@ -68,9 +68,9 @@
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="/">Beranda <spans class="sr-only">(current)</spans>
                         </a>
-                    <a class="nav-item nav-link" href="/berita">Berita</a>
-                    <a class="nav-item nav-link" href="/destinasi">Destinasi</a>
-                    <a class="nav-item nav-link" href="/kontak">Kontak</a>
+                    <a class="nav-item nav-link" href="/news">Berita</a>
+                    <a class="nav-item nav-link" href="/destination">Destinasi</a>
+                    <a class="nav-item nav-link" href="/contact">Kontak</a>
                     <a class="nav-item nav-link" href="#wrab"><button>Masuk</button></a>
                     <a class="nav-item nav-link btn btn-primary" id="button" href="#">Daftar</a>
                 </div>
