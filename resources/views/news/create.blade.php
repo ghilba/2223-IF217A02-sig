@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form action="/news" method="post">
+    <form action="/dashboard/news" method="post">
         @csrf
         <input id="title" name="title" type="text">
         <input id="content" name="content" type="text">

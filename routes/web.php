@@ -4,6 +4,7 @@ use App\Http\Controllers\DestinationController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\NewsController;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +20,7 @@ use App\Http\Controllers\NewsController;
 Route::get('/', [HomeController::class, 'index']);
 Route::resource('/destination', DestinationController::class);
 
-Route::resource('/news', NewsController::class);
+Route::resource('/dashboard/news', NewsController::class);
 
 
 
@@ -28,3 +29,10 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+
+Route::get('/news', function(){
+    $news = DB::table('news')->simplePaginate(3);
+    return view('berita', [
+        'news' => $news,
+    ]);
+});
