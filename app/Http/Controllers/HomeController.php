@@ -10,7 +10,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $destinations = DB::table('destinations')->simplePaginate(3);
+        $destinations = DB::table('destinations')->simplePaginate(6);
         return view('home', [
             'destinations' => $destinations, 
         ]);
