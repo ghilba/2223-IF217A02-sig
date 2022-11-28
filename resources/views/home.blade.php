@@ -178,21 +178,21 @@
             <div class="contentie text-center">
               <div class="contentie-body">
                 <h1>50</h1>
-                <hr class="hre">
+                <hr>
                 <p><h3>Total Destinasi</h3></p>
               </div>
             </div>
             <div class="contentie text-center">
               <div class="contentie-body">
                 <h1>50</h1>
-                <hr class="hre">
+                <hr>
                 <p><h3>Total Destinasi</h3></p>
               </div>
             </div>
             <div class="contentie text-center">
               <div class="contentie-body">
                 <h1>50</h1>
-                <hr class="hre">
+                <hr>
                 <p><h3>Total Destinasi</h3></p>
               </div>
             </div>

@@ -51,7 +51,7 @@ animationDuration: 1000
             <div class="container-fluid container-1">
               <form class="d-flex button">
                 <img class="magnifier_icon" src="{{ asset('/img/beranda/magnifier.png') }}" alt="">
-                {{-- <span class="magnifier_icon"><i class="fa fa-search"></i></span> --}}
+                <!-- {{-- <span class="magnifier_icon"><i class="fa fa-search"></i></span> --}} -->
                 <input class="form-control button_search" type="search" id="search" aria-label="Search">
                 <button class="btn button_cari" type="submit">Cari</button>
               </form>

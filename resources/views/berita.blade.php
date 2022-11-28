@@ -9,7 +9,7 @@
               <div class="contenti-body">
                 <h5 class="contenti-title">Berita</h5>
                 <p class="contenti-text">Ini isinya berita apa aja maunya maneh</p>
-                <hr class="hre">
+                <hr>
                 <p class="contenti-textw"><img src="{{ asset('/img/beranda/jam.png') }}" alt=""> 17 Agustus 1945</p>
               </div>
             </div>
@@ -18,7 +18,7 @@
               <div class="contenti-body">
                 <h5 class="contenti-title">Berita</h5>
                 <p class="contenti-text">Ini isinya berita apa aja maunya maneh</p>
-                <hr class="hre">
+                <hr>
                 <p class="contenti-textw"><img src="{{ asset('/img/beranda/jam.png') }}" alt=""> 17 Agustus 1945</p>
               </div>
             </div>
@@ -27,7 +27,7 @@
               <div class="contenti-body">
                 <h5 class="contenti-title">Berita</h5>
                 <p class="contenti-text">Ini isinya berita apa aja maunya maneh</p>
-                <hr class="hre">
+                <hr>
                 <p class="contenti-textw"><img src="{{ asset('/img/beranda/jam.png') }}" alt=""> 17 Agustus 1945</p>
               </div>
             </div>
@@ -36,7 +36,7 @@
               <div class="contenti-body">
                 <h5 class="contenti-title">Berita</h5>
                 <p class="contenti-text">Ini isinya berita apa aja maunya maneh</p>
-                <hr class="hre">
+                <hr>
                 <p class="contenti-textw"><img src="{{ asset('/img/beranda/jam.png') }}" alt=""> 17 Agustus 1945</p>
               </div>
             </div>
