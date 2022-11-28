@@ -73,7 +73,7 @@
 
                         <div class="card-content">
                             <h2 class="name">Palutungan</h2>
-                            <p class="description">Yogyakarta</p>
+                            <p class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</p>
 
                             <button class="buttone">Kunjungi</button>
                         </div>
@@ -90,7 +90,7 @@
 
                         <div class="card-content">
                             <h2 class="name">Palutungan</h2>
-                            <p class="description">Yogyakarta</p>
+                            <p class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</p>
 
                             <button class="buttone">Kunjungi</button>
                         </div>
@@ -108,7 +108,7 @@
 
                         <div class="card-content">
                             <h2 class="name">Palutungan</h2>
-                            <p class="description">Yogyakarta</p>
+                            <p class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</p>
 
                             <button class="buttone">Kunjungi</button>
                         </div>
@@ -127,7 +127,7 @@
 
                         <div class="card-content">
                             <h2 class="name">Palutungan</h2>
-                            <p class="description">Yogyakarta</p>
+                            <p class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</p>
 
                             <button class="buttone">Kunjungi</button>
                         </div>
@@ -145,7 +145,7 @@
 
                         <div class="card-content">
                             <h2 class="name">Palutungan</h2>
-                            <p class="description">Yogyakarta</p>
+                            <p class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</p>
 
                             <button class="buttone">Kunjungi</button>
                         </div>
@@ -173,42 +173,27 @@
   </div>
 </section>
 <section class="isi">
-<div class="cards">
-         <div class="services">
-            <div class="contenti text-center">
-              <img src="{{ asset('/img/beranda/HEHA.png') }}" class="card-img-top" alt="...">
-              <div class="contenti-body">
-                <h5 class="contenti-title">HeHa Ocean View</h5>
-                <p class="contenti-text">Ini isinya berita apa aja maunya maneh</p>
+<div class="cardse">
+         <div class="servicese">
+            <div class="contentie text-center">
+              <div class="contentie-body">
+                <h1>50</h1>
                 <hr class="hre">
-                <p class="contenti-textw"><img src="{{ asset('/img/beranda/jam.png') }}" alt=""> 17 Agustus 1945</p>
+                <p><h3>Total Destinasi</h3></p>
               </div>
             </div>
-            <div class="contenti text-center">
-              <img src="{{ asset('/img/beranda/HEHA.png') }}" class="card-img-top" alt="...">
-              <div class="contenti-body">
-                <h5 class="contenti-title">HeHa Ocean View</h5>
-                <p class="contenti-text">Ini isinya berita apa aja maunya maneh</p>
+            <div class="contentie text-center">
+              <div class="contentie-body">
+                <h1>50</h1>
                 <hr class="hre">
-                <p class="contenti-textw"><img src="{{ asset('/img/beranda/jam.png') }}" alt=""> 17 Agustus 1945</p>
+                <p><h3>Total Destinasi</h3></p>
               </div>
             </div>
-            <div class="contenti text-center">
-              <img src="{{ asset('/img/beranda/HEHA.png') }}" class="card-img-top" alt="...">
-              <div class="contenti-body">
-                <h5 class="contenti-title">HeHa Ocean View</h5>
-                <p class="contenti-text">Ini isinya berita apa aja maunya maneh</p>
+            <div class="contentie text-center">
+              <div class="contentie-body">
+                <h1>50</h1>
                 <hr class="hre">
-                <p class="contenti-textw"><img src="{{ asset('/img/beranda/jam.png') }}" alt=""> 17 Agustus 1945</p>
-              </div>
-            </div>
-            <div class="contenti text-center">
-              <img src="{{ asset('/img/beranda/HEHA.png') }}" class="card-img-top" alt="...">
-              <div class="contenti-body">
-                <h5 class="contenti-title">HeHa Ocean View</h5>
-                <p class="contenti-text">Ini isinya berita apa aja maunya maneh</p>
-                <hr class="hre">
-                <p class="contenti-textw"><img src="{{ asset('/img/beranda/jam.png') }}" alt=""> 17 Agustus 1945</p>
+                <p><h3>Total Destinasi</h3></p>
               </div>
             </div>
          </div>

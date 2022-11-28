@@ -90,9 +90,18 @@ animationDuration: 1000
         @yield('main')
     </main>
         @yield('js')
+
+
    
     <footer class="footer">
-      <button>Kunjungi</button>
+      <div class="isif">
+        <div class="teksto">
+        <h1>PUNYA PERTANYAAN</h1>
+        <h4>untuk informasi lebih lanjut</h4>
+        </div>
+        <div class="kunjung"><button class="buttonek"><img src="{{ asset('/img/beranda/email.png') }}" alt="">Email</button></div>
+      </div>
+      
     </footer>
   </body>
 </html>

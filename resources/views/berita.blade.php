@@ -7,7 +7,7 @@
             <div class="contenti text-center">
               <img src="{{ asset('/img/beranda/HEHA.png') }}" class="card-img-top" alt="...">
               <div class="contenti-body">
-                <h5 class="contenti-title">HeHa Ocean View</h5>
+                <h5 class="contenti-title">Berita</h5>
                 <p class="contenti-text">Ini isinya berita apa aja maunya maneh</p>
                 <hr class="hre">
                 <p class="contenti-textw"><img src="{{ asset('/img/beranda/jam.png') }}" alt=""> 17 Agustus 1945</p>
@@ -16,7 +16,7 @@
             <div class="contenti text-center">
               <img src="{{ asset('/img/beranda/HEHA.png') }}" class="card-img-top" alt="...">
               <div class="contenti-body">
-                <h5 class="contenti-title">HeHa Ocean View</h5>
+                <h5 class="contenti-title">Berita</h5>
                 <p class="contenti-text">Ini isinya berita apa aja maunya maneh</p>
                 <hr class="hre">
                 <p class="contenti-textw"><img src="{{ asset('/img/beranda/jam.png') }}" alt=""> 17 Agustus 1945</p>
@@ -25,7 +25,7 @@
             <div class="contenti text-center">
               <img src="{{ asset('/img/beranda/HEHA.png') }}" class="card-img-top" alt="...">
               <div class="contenti-body">
-                <h5 class="contenti-title">HeHa Ocean View</h5>
+                <h5 class="contenti-title">Berita</h5>
                 <p class="contenti-text">Ini isinya berita apa aja maunya maneh</p>
                 <hr class="hre">
                 <p class="contenti-textw"><img src="{{ asset('/img/beranda/jam.png') }}" alt=""> 17 Agustus 1945</p>
@@ -34,7 +34,7 @@
             <div class="contenti text-center">
               <img src="{{ asset('/img/beranda/HEHA.png') }}" class="card-img-top" alt="...">
               <div class="contenti-body">
-                <h5 class="contenti-title">HeHa Ocean View</h5>
+                <h5 class="contenti-title">Berita</h5>
                 <p class="contenti-text">Ini isinya berita apa aja maunya maneh</p>
                 <hr class="hre">
                 <p class="contenti-textw"><img src="{{ asset('/img/beranda/jam.png') }}" alt=""> 17 Agustus 1945</p>
