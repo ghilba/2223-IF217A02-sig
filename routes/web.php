@@ -29,6 +29,10 @@ Route::get('/kontak', function () {
     return view('kontak');
 });
 
+Route::get('/masuk', function () {
+    return view('masuk');
+});
+
 // Route::get('/', [MapController::class, 'index']);
 
 

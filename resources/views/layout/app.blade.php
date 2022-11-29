@@ -65,7 +65,7 @@ animationDuration: 1000
             <a class="nav-item nav-link" href="/berita">Berita</a>
             <a class="nav-item nav-link" href="/destinasi">Destinasi</a>
             <a class="nav-item nav-link" href="/kontak">Kontak</a>
-            <a class="nav-item nav-link" href="#">Masuk</a>
+            <a class="nav-item nav-link" href="/masuk">Masuk</a>
             <a class="nav-item nav-link btn btn-primary" id="button" href="#">Daftar</a>
           </div>
         </div>
@@ -91,8 +91,6 @@ animationDuration: 1000
     </main>
         @yield('js')
 
-
-   
     <footer class="footer">
       <div class="isif">
         <div class="teksto">

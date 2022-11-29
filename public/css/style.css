@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 
@@ -6,7 +7,7 @@
 * {
     margin: 0;
     padding: 0;
-	box-sizing: border-box;
+	  box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -28,18 +29,47 @@
     filter: drop-shadow(0px 2px 2px black);
 }
 .kirito {
-    background-color: #EDE6DB;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 80%;
+  background-color: #EDE6DB;
+  border-radius: 2%;
+}
+.kiritoe {
     margin: 5%;
+}
+.kiritod {
+  margin-left: 30%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 70%;
+  background-color: violet;
+}
+.kiritode {
+  margin: 5%;
 }
 .kiri {
     height: 500px;
 }
+
+.gamkon {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 380px; 
+  height: 200px; 
+  border-radius: 10px;
+}
+
+.atkiri {
+  background-color: #F5F5F5;
+  height: 55%;
+}
+
 .atkir {
-    background-color: #F5F5F5;
     margin-left: 3%;
-    height: 55%;
 }
 .bawkir {
+    overflow: auto;
     background-color: #EDE6DB;
     height: 45%;
 }
@@ -52,6 +82,35 @@
     width: 80%;
     height: 34px;
     filter: drop-shadow(0px 2px 2px black);
+}
+
+.buttonyet {
+  width: 80%;
+  height: 34px;
+  filter: drop-shadow(0px 2px 2px black);
+}
+
+.buttonyc {
+  margin-left: 6%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 88%;
+  height: 34px;
+  border-radius: 10px;
+  padding-left: 5%;
+  font-size: 15px;
+}
+
+.buttonyce {
+  margin-left: 6%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 88%;
+  height: 180px;
+  border-radius: 10px;
+  padding-top: 1%;
+  padding-left: 5%;
+  font-size: 15px;
 }
 
 .buttony_searche {
@@ -311,7 +370,7 @@ section {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 200px;
+    height: 180px;
     background-color: #417D7A;
   }
 
@@ -505,7 +564,16 @@ section {
     flex: 1 1 100%;
   }
   .contentie h1{
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    font-size: 90px;
     color: #417D7A;
+  }
+  .contentie h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #1A3C40;
   }
 
   @media (max-width: 900px) {
@@ -526,7 +594,7 @@ section {
   
     width: 233px;
     height: 242px;
-    padding-top: 50px;
+    padding-top: 2%;
   } 
   .contentie-text {
     margin-left: 15px;
@@ -541,4 +609,31 @@ section {
   .dest {
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  .desti {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .horie {
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 2%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    width: 88%;
+    height: 135px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: violet;
+  }
+  .gakir {
+    width: 100%;
+    height: 135px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .saran input#textarea {
+    height: 20%;
   }

@@ -2,7 +2,8 @@
 @section('main')
 <section class="dest">
     <div class="kiri">
-        <div class="atkir">
+        <div class="atkiri">
+          <div class="atkir">
             <h4>Pencarian Destinasi :</h4>
             <hr>
             <form class="d-flex buttony">
@@ -16,9 +17,49 @@
                 </select>
             </form>
             <p>Provinsi</p>
+            <form class="buttonye">
+              <select class="buttonyet" name="provinsi" id="provinsi">
+                  <option value="">Semua Provinsi</option>
+                  <option value="jabar">Jawa Barat</option>
+                  <option value="jatim">Jawa Timur</option>
+              </select><br>
+              <button type="submit">Kirim</button>
+          </form>
+          </div>
         </div>
         <div class="bawkir">
-            <h4>overflow ini</h4>
+          <div class="horie">
+            <div>
+              <img class="gakir" src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg">
+            </div>
+            <div>
+              <p>ini nanti isinya</p>
+            </div>
+          </div>
+          <div class="horie">
+            <div>
+              <img class="gakir" src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg">
+            </div>
+            <div>
+              <p>ini nanti isinya</p>
+            </div>
+          </div>
+          <div class="horie">
+            <div>
+              <img class="gakir" src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg">
+            </div>
+            <div>
+              <p>ini nanti isinya</p>
+            </div>
+          </div>
+          <div class="horie">
+            <div>
+              <img class="gakir" src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg">
+            </div>
+            <div>
+              <p>ini nanti isinya</p>
+            </div>
+          </div>
         </div>
     </div>
     <div id="map" style="width: 100%; height: 500px;">

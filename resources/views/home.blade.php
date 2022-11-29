@@ -67,7 +67,7 @@
                             
 
                             <div class="card-image">
-                            <img src="/img/beranda/HEHA.png" alt="" class="card-img">
+                            <img src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg" alt="" class="card-img">
                             </div>
 
 
@@ -85,7 +85,7 @@
                             
 
                             <div class="card-image">
-                            <img src="/img/beranda/HEHA.png" alt="" class="card-img">
+                            <img src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg" alt="" class="card-img">
                             </div>
 
                         <div class="card-content">
@@ -102,7 +102,7 @@
                             
 
                             <div class="card-image">
-                            <img src="/img/beranda/HEHA.png" alt="" class="card-img">
+                            <img src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg" alt="" class="card-img">
                             </div>
 
 
@@ -121,7 +121,7 @@
                             
 
                             <div class="card-image">
-                                <img src="/img/beranda/HEHA.png" alt="" class="card-img">
+                                <img src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg" alt="" class="card-img">
                             </div>
 
 

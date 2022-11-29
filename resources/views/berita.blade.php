@@ -44,9 +44,3 @@
       </div>
 </section>
 @endsection
-@section('js')
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/splide.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/scripte.js"></script>
-@endsection
