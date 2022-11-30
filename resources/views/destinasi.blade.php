@@ -1,6 +1,7 @@
 @extends('layout.app')
 @section('main')
-<section class="dest">
+<section>
+  <div class="dest">
     <div class="kiri">
         <div class="atkiri">
           <div class="atkir">
@@ -8,7 +9,7 @@
             <hr>
             <form class="d-flex buttony">
                 <input class="buttony_searche" type="search" id="search" aria-label="Search" placeholder="Cari destinasi tempat wisata">
-                <select name="tempat" id="tempat">
+                <select class="kategori" name="kategori" id="kategori">
                     <option value="">Semua Kategori</option>
                     <option value="budaya">Budaya</option>
                     <option value="Cagar Alam">Cagar Alam</option>
@@ -16,14 +17,14 @@
                     <option value="pertanian">Pertanian</option>
                 </select>
             </form>
-            <p>Provinsi</p>
+            <p class="pro">Provinsi</p>
             <form class="buttonye">
               <select class="buttonyet" name="provinsi" id="provinsi">
                   <option value="">Semua Provinsi</option>
                   <option value="jabar">Jawa Barat</option>
                   <option value="jatim">Jawa Timur</option>
               </select><br>
-              <button type="submit">Kirim</button>
+              <button class="cari" type="submit">Cari</button>
           </form>
           </div>
         </div>
@@ -32,37 +33,70 @@
             <div>
               <img class="gakir" src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg">
             </div>
-            <div>
-              <p>ini nanti isinya</p>
+            <div class="isik">
+              <div class="judul">Palutungan</div>
+              <p class="isie">Area nongkrong dengan spot foto nongkrong nongkrong nongkrong</p>
+              <div class="sisa">
+                <hr>
+                <div class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</div>
+              </div>
             </div>
           </div>
           <div class="horie">
             <div>
               <img class="gakir" src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg">
             </div>
-            <div>
-              <p>ini nanti isinya</p>
+            <div class="isik">
+              <div class="judul">Palutungan</div>
+              <p class="isie">Area nongkrong dengan spot foto nongkrong nongkrong nongkrong</p>
+              <div class="sisa">
+                <hr>
+                <div class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</div>
+              </div>
             </div>
           </div>
           <div class="horie">
             <div>
               <img class="gakir" src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg">
             </div>
-            <div>
-              <p>ini nanti isinya</p>
+            <div class="isik">
+              <div class="judul">Palutungan</div>
+              <p class="isie">Area nongkrong dengan spot foto nongkrong nongkrong nongkrong</p>
+              <div class="sisa">
+                <hr>
+                <div class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</div>
+              </div>
             </div>
           </div>
           <div class="horie">
             <div>
               <img class="gakir" src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg">
             </div>
-            <div>
-              <p>ini nanti isinya</p>
+            <div class="isik">
+              <div class="judul">Palutungan</div>
+              <p class="isie">Area nongkrong dengan spot foto nongkrong nongkrong nongkrong</p>
+              <div class="sisa">
+                <hr>
+                <div class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</div>
+              </div>
             </div>
           </div>
+          <div class="horie">
+            <div>
+              <img class="gakir" src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg">
+            </div>
+            <div class="isik">
+              <div class="judul">Palutungan</div>
+              <p class="isie">Area nongkrong dengan spot foto nongkrong nongkrong nongkrong</p>
+              <div class="sisa">
+                <hr>
+                <div class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</div>
+              </div>
+            </div>
+          </div>              
         </div>
     </div>
-    <div id="map" style="width: 100%; height: 500px;">
+    <div class="mapi" id="map" style="width: 100%; height: 100%;">
     <script>
       var peta1 = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		// attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
@@ -107,6 +141,7 @@
 
     </script>
     </div>
+  </div>
 </section>
 @endsection
 @section('js')

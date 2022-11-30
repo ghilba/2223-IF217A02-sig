@@ -2,7 +2,7 @@
 @section('main')
   <section class="map" id="map">
     {{-- MAPS --}}
-    <div id="map" style="width: 100%; height: 400px;"></div>
+    <div id="map" style="width: 100%; height: 500px;"></div>
     <script>
       var peta1 = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		// attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
@@ -199,7 +199,23 @@
          </div>
       </div>
 </section>
-
+<section>
+  <footer class="footer">
+    <div class="isif">
+      <div class="teksto">
+        <img class="genk" src="/img/beranda/line.png">
+        <h1 class="nanya">PUNYA PERTANYAAN</h1>
+        <p class="lanjut">untuk informasi lebih lanjut</p>
+      </div>
+      <div class="kunjung">
+        <button class="buttonek">
+          <h6 class="kaki">Kontak</h6>
+          <img class="kak" src="{{ asset('/img/beranda/email.png') }}" alt="">
+        </button>
+      </div>
+    </div>
+  </footer>
+</section>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

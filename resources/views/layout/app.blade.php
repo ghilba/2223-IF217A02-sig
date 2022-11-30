@@ -1,15 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-  <script type="text/javascript" src="http://www.domainkamu.com/jquery.flexslider-min.js"></script>
-<script type="text/javascript">
-$(window).load(function() {
-$('.flexslider').flexslider({
-slideshowSpeed: 1000,
-animationDuration: 1000
-});
-});
-</script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA_Compatible" content="IE=edge">
@@ -65,8 +56,7 @@ animationDuration: 1000
             <a class="nav-item nav-link" href="/berita">Berita</a>
             <a class="nav-item nav-link" href="/destinasi">Destinasi</a>
             <a class="nav-item nav-link" href="/kontak">Kontak</a>
-            <a class="nav-item nav-link" href="/masuk">Masuk</a>
-            <a class="nav-item nav-link btn btn-primary" id="button" href="#">Daftar</a>
+            <a class="nav-item nav-link btn btn-primary" id="button" href="#">Masuk</a>
           </div>
         </div>
       </div>
@@ -90,16 +80,5 @@ animationDuration: 1000
         @yield('main')
     </main>
         @yield('js')
-
-    <footer class="footer">
-      <div class="isif">
-        <div class="teksto">
-        <h1>PUNYA PERTANYAAN</h1>
-        <h4>untuk informasi lebih lanjut</h4>
-        </div>
-        <div class="kunjung"><button class="buttonek"><img src="{{ asset('/img/beranda/email.png') }}" alt="">Email</button></div>
-      </div>
-      
-    </footer>
   </body>
 </html>
