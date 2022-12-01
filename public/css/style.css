@@ -795,9 +795,6 @@ section {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
-  .saran input#textarea {
-    height: 20%;
-  }
 
   .gambarat {
     width: 100%; 
@@ -886,4 +883,131 @@ section {
   .sisa hr {
     margin-top: 2em;
     margin-bottom: 0.6em;
+  }
+
+  .profil {
+    display: grid;
+    grid-template-columns: 27% 73%;
+    height: 800px;
+    margin: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 9px;
+    background-color: #EDE6DB;
+  }
+
+  .kirpro {
+    width: 100%;
+    height: 100%;
+  }
+
+  .kanpro{
+    height: 100%;
+    padding-top: 10%;
+  }
+
+  .photo {
+    background-image: url("https://i2.wp.com/blog.tripcetera.com/id/wp-content/uploads/2020/10/pulau-padar.jpg");
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 15%;
+  }
+
+  .pohol {
+    margin-top: 15%;
+    width: 100%;
+    height: 40%;
+  }
+
+  .kanpro h1 {
+    margin-left: 4%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #1A3C40;
+  }
+
+  .kanpro hr {
+    margin-left: 4%;
+    width: 90%;
+    height: 3px;
+    color: black;
+  }
+
+  .usnam {
+    width: 27%;
+    height: 41px;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    border: none;
+  }
+
+  .iden {
+    width: 60%;
+    height: 41px;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    border: none;
+  }
+
+  .label {
+    margin-left: 4%;
+    color: #1A3C40;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .ganti{
+    margin-left: 23.5%;
+    margin-top: 88%;
+    border: none;
+    color: white;
+    background-color: #417D7A;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 138px;
+    height: 41px;
+  
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .konfirmasi {
+    float: right;
+    margin-right: 4%;
+    margin-top: 5%;
+    border: none;
+    color: white;
+    background-color: #417D7A;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 131px;
+    height: 41px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;  
   }

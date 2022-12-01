@@ -33,6 +33,10 @@ Route::get('/masuk', function () {
     return view('masuk');
 });
 
+Route::get('/profile', function () {
+    return view('profile');
+});
+
 // Route::get('/', [MapController::class, 'index']);
 
 
