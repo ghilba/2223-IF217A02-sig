@@ -25,7 +25,6 @@
 
     <link rel="stylesheet" href="{{ asset('/css/swiper-bundle.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/splide.min.css') }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
     
     <title>Beranda</title>
   </head>
@@ -56,7 +55,21 @@
             <a class="nav-item nav-link" href="/berita">Berita</a>
             <a class="nav-item nav-link" href="/destinasi">Destinasi</a>
             <a class="nav-item nav-link" href="/kontak">Kontak</a>
-            <a class="nav-item nav-link btn btn-primary" id="button" href="#">Masuk</a>
+            {{-- <a class="nav-item nav-link btn btn-primary" id="button" href="#">Masuk</a> --}}
+            <button onclick="document.getElementById('id01').style.display='block'" class="nav-item nav-link btn btn-primary" id="button">Masuk</button>
+            <div id="id01" class="modal"> 
+              <form class="modal-content animate" action="/action_page.php" method="post">
+                <div onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</div>
+                <div class="kontener">
+                  <h6>KONTAK KAMI</h6>
+                  <input class ="buttonyc" type="email" placeholder="Email" name="email"><br>
+                  <input class ="buttonyc" type="password" placeholder="Password" name="password"><br>
+                  <button class="kirim" type="submit">Masuk</button>
+                  <a href="#" class="lupa">Lupa Password?</a>
+                  <p class="daftar"><a href="#">Daftar</a></p>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -73,8 +86,10 @@
 
      <script src="/js/swiper-bundle.min.js"></script>
      <script src="/js/splide.min.js"></script>
+     <script src="/js/map.js"></script>
      <script src="/js/script.js"></script>
      <script src="/js/scripte.js"></script>
+     <script src="/js/scripted.js"></script>
      
     <main>
         @yield('main')

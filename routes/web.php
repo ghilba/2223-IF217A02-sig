@@ -37,6 +37,11 @@ Route::get('/profile', function () {
     return view('profile');
 });
 
+Route::get('/test', function () {
+    return view('test');
+});
+
+
 // Route::get('/', [MapController::class, 'index']);
 
 

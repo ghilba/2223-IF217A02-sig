@@ -16,7 +16,7 @@
                 <label class="label" for="user"><b>Username</b></label><br>
                 <input class ="usnam" type="text" placeholder="Nama" name="user"><br>
                 <label class="label" for="nama"><b>Nama Lengkap</b></label><br>
-                <input class ="iden" type="email" placeholder="Nama Lengkap" name="nama"><br>
+                <input class ="iden" type="text" placeholder="Nama Lengkap" name="nama"><br>
                 <label class="label" for="email"><b>Email</b></label><br>
                 <input class ="iden" type="email" placeholder="Email" name="email"><br>
                 <label class="label" for="password"><b>Password</b></label><br>
