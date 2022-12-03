@@ -37,18 +37,6 @@
         </a>
         {{-- search --}}
         <nav class="navbar navbar-dark">
-          <div class="box">
-            <div class="container-fluid container-1">
-              <form class="d-flex button">
-                <img class="magnifier_icon" src="{{ asset('/img/beranda/magnifier.png') }}" alt="">
-                <!-- {{-- <span class="magnifier_icon"><i class="fa fa-search"></i></span> --}} -->
-                <input class="form-control button_search" type="search" id="search" aria-label="Search">
-                <button class="btn button_cari" type="submit">Cari</button>
-              </form>
-            </div>
-          </div>
-        </nav>
-        
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="/">Beranda <spans class="sr-only">(current)</spans></a>
