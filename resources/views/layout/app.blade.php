@@ -61,12 +61,12 @@
               <form class="modal-content animate" action="/action_page.php" method="post">
                 <div onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</div>
                 <div class="kontener">
-                  <h6>KONTAK KAMI</h6>
-                  <input class ="buttonyc" type="email" placeholder="Email" name="email"><br>
-                  <input class ="buttonyc" type="password" placeholder="Password" name="password"><br>
-                  <button class="kirim" type="submit">Masuk</button>
+                  <h6>MASUK DESTINASI</h6>
+                  <input class ="login" type="email" placeholder="Email" name="email"><br>
+                  <input class ="login" type="password" placeholder="Password" name="password"><br>
+                  <button class="kirime" type="submit">Masuk</button>
                   <a href="#" class="lupa">Lupa Password?</a>
-                  <p class="daftar"><a href="#">Daftar</a></p>
+                  <p><a class="daftar" href="#">Belum daftar</a></p>
                 </div>
               </form>
             </div>

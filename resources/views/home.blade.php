@@ -6,71 +6,11 @@
   </section>
   
   {{-- destination --}}
-
-<h1>COBA DULUUUU</h1>
-
-<section id="featured-product" class="splide" aria-label="Splide Basic HTML Example">
-  <div class="splide__track">
-		<ul class="splide__list">
-			<li class="splide__slide" id="kon">
-        <div class="kartu">
-          <div class="card-image">
-            <img src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg" alt="" class="card-img">
-          </div>
-          <div class="card-content">
-            <h2 class="name">Palutungan</h2>
-            <p class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</p>
-            <button class="buttone">Kunjungi</button>
-          </div>
-        </div>
-      </li>
-      <li class="splide__slide" id="kon">
-        <div class="kartu">
-          <div class="card-image">
-            <img src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg" alt="" class="card-img">
-          </div>
-          <div class="card-content">
-            <h2 class="name">Palutungan</h2>
-            <p class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</p>
-            <button class="buttone">Kunjungi</button>
-          </div>
-        </div>
-      </li>
-      <li class="splide__slide" id="kon">
-        <div class="kartu">
-          <div class="card-image">
-            <img src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg" alt="" class="card-img">
-          </div>
-          <div class="card-content">
-            <h2 class="name">Palutungan</h2>
-            <p class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</p>
-            <button class="buttone">Kunjungi</button>
-          </div>
-        </div>
-      </li>
-      <li class="splide__slide" id="kon">
-        <div class="kartu">
-          <div class="card-image">
-            <img src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg" alt="" class="card-img">
-          </div>
-          <div class="card-content">
-            <h2 class="name">Palutungan</h2>
-            <p class="description"><img src="{{ asset('/img/beranda/locate.png') }}" alt="">Yogyakarta</p>
-            <button class="buttone">Kunjungi</button>
-          </div>
-        </div>
-      </li>
-		</ul>
-  </div>
-</section>
-
-  {{-- <section class="destination" id="destination">
+  <section class="destination" id="destination">
     <div class="container-2">
-      <div class="row">
-        <div class="col-sm-12">
+      <div class="ini">
           <h3 class="text-center">DESTINASI TERBARU</h3>
           <hr>
-        </div>
       </div>
 
       <div class="slide-container swiper">
@@ -78,6 +18,9 @@
                 <div class="card-wrapper swiper-wrapper">
                     <div class="card swiper-slide">
                     <div class="kartu">
+
+                            
+
                             <div class="card-image">
                             <img src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg" alt="" class="card-img">
                             </div>
@@ -93,6 +36,9 @@
                     </div>
                     <div class="card swiper-slide">
                     <div class="kartu">
+ 
+                            
+
                             <div class="card-image">
                             <img src="https://www.javatravel.net/wp-content/uploads/2022/05/Pondok-Pinus-Palutungan-Kuningan.jpg" alt="" class="card-img">
                             </div>
@@ -167,23 +113,20 @@
             <div class="swiper-button-prev swiper-navBtn"></div>
             <div class="swiper-pagination"></div>
         </div>
+        <!-- masuk sini -->
         
     </div>
     
-  </section> --}}
-
-<section id="new-product" class="splide" aria-label="Splide Basic HTML Example">
+  </section>
+  <section class="splide" aria-label="Splide Basic HTML Example">
   <div class="splide__track">
 		<ul class="splide__list">
-      <li class="splide__slide"><img style="width: 100%; height: 400px;" src="https://i2.wp.com/blog.tripcetera.com/id/wp-content/uploads/2020/10/pulau-padar.jpg"></li>
-      <li class="splide__slide"><img style="width: 100%; height: 400px;" src="https://i2.wp.com/blog.tripcetera.com/id/wp-content/uploads/2020/10/pulau-padar.jpg"></li>
 			<li class="splide__slide"><img style="width: 100%; height: 400px;" src="https://i2.wp.com/blog.tripcetera.com/id/wp-content/uploads/2020/10/pulau-padar.jpg"></li>
 			<li class="splide__slide"><img style="width: 100%; height: 400px;" src="https://i2.wp.com/blog.tripcetera.com/id/wp-content/uploads/2020/10/pulau-padar.jpg"></li>
 			<li class="splide__slide"><img style="width: 100%; height: 400px;" src="https://i2.wp.com/blog.tripcetera.com/id/wp-content/uploads/2020/10/pulau-padar.jpg"></li>
 		</ul>
   </div>
 </section>
-
 <section class="isi">
 <div class="cardse">
          <div class="servicese">
