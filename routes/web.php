@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\DestinationController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\NewsController;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,22 +17,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+Route::get('/', [HomeController::class, 'index']);
+Route::resource('/destination', DestinationController::class);
+
+Route::resource('/dashboard/news', NewsController::class);
+
+
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+require __DIR__.'/auth.php';
+
+Route::get('/news', function(){
+    $news = DB::table('news')->simplePaginate(3);
+    return view('berita', [
+        'news' => $news,
+    ]);
 });
-
-Route::get('/berita', function () {
-    return view('berita');
-});
-
-Route::get('/destinasi', function () {
-    return view('destinasi');
-});
-
-Route::get('/kontak', function () {
-    return view('kontak');
-});
-
-// Route::get('/', [MapController::class, 'index']);
-
-
