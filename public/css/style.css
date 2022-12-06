@@ -1078,6 +1078,23 @@ section {
       border: none;
     }
 
+    .kirimi{
+      margin-top: 1%;
+      border: none;
+      color: white;
+      background-color: #417D7A;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      width: 111px;
+      height: 34px;
+    
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
     .kirime{
       margin-left: 1%;
       margin-top: 2%;

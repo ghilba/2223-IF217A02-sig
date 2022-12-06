@@ -44,7 +44,7 @@
             <a class="nav-item nav-link" href="/destinasi">Destinasi</a>
             <a class="nav-item nav-link" href="/kontak">Kontak</a>
             {{-- <a class="nav-item nav-link btn btn-primary" id="button" href="#">Masuk</a> --}}
-            <button onclick="document.getElementById('id01').style.display='block'" class="nav-item nav-link btn btn-primary" id="button">Masuk</button>
+            <button onclick="document.getElementById('id01').style.display='block'" class="kirimi" id="button">Masuk</button>
             <div id="id01" class="modal"> 
               <form class="modal-content animate" action="/action_page.php" method="post">
                 <div onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</div>
