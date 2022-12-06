@@ -1,15 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <script type="text/javascript" src="http://www.domainkamu.com/jquery.flexslider-min.js"></script>
-    <script type="text/javascript">
-        $(window).load(function() {
-            $('.flexslider').flexslider({
-                slideshowSpeed: 1000,
-                animationDuration: 1000
-            });
-        });
-    </script>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA_Compatible" content="IE=edge">
@@ -26,17 +17,15 @@
     <script src="https://kit.fontawesome.com/856c08272a.js" crossorigin="anonymous"></script>
 
     <!-- Leaflet -->
-
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
-
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
 
     <link rel="stylesheet" href="{{ asset('/css/swiper-bundle.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/splide.min.css') }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    
     <title>Beranda</title>
   </head>
   <body>
@@ -55,7 +44,7 @@
             <a class="nav-item nav-link" href="/destinasi">Destinasi</a>
             <a class="nav-item nav-link" href="/kontak">Kontak</a>
             {{-- <a class="nav-item nav-link btn btn-primary" id="button" href="#">Masuk</a> --}}
-            <button onclick="document.getElementById('id01').style.display='block'" class="nav-item nav-link btn btn-primary" id="button">Masuk</button>
+            <button onclick="document.getElementById('id01').style.display='block'" class="kirimi" id="button">Masuk</button>
             <div id="id01" class="modal"> 
               <form class="modal-content animate" action="/action_page.php" method="post">
                 <div onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</div>
