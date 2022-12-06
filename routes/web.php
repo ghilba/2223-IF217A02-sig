@@ -23,11 +23,6 @@ Route::resource('/destination', DestinationController::class);
 Route::resource('/dashboard/news', NewsController::class);
 
 
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
 require __DIR__.'/auth.php';
 
 Route::get('/news', function(){

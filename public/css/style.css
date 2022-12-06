@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
-
-
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&family=Rubik:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    height: fit-content;
 	  box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
@@ -15,6 +13,9 @@
     height: 90px;
 }
 .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     margin-left: 24px;
 }
 
@@ -25,10 +26,238 @@
     border-radius: 20px;
     filter: drop-shadow(0px 2px 2px black);
 }
+.kirito {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 80%;
+  background-color: #EDE6DB;
+  border-radius: 2%;
+}
+.kiritoe {
+  width: 90%;
+  margin: 5%;
+}
 
+.kiritoe h6 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.konk {
+  width: 420px;
+  margin-top: 2%;
+  margin-left: 2%;
+  font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.kank {
+  margin-left: 2%;
+  padding-bottom: 1%;
+}
+
+.kenk {
+  font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 2%;
+}
+.kunk {
+  margin-left: 3%;
+  font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+.kiritod {
+  margin-left: 20%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 80%;
+}
+.kiritode {
+  margin: 5%;
+}
+.kiri {
+  height: 100%;
+}
+.gamkon {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 420px; 
+  height: 240px; 
+  border-radius: 10px;
+}
+
+.kiri {
+  max-height: 100vh;
+}
+
+.atkiri {
+  background-color: #F5F5F5;
+  height: 50%;
+}
+
+.atkir {
+    margin-left: 3%;
+}
+
+.atkir h4 {
+  padding-top: 5%;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.atkir hr {
+  width: 90%;
+}
+
+.bawkir {
+    overflow: auto;
+    background-color: #EDE6DB;
+    height: 50%;
+}
 .button_search {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.buttony {
+    width: 90%;
+}
+
+.buttony_searche {
+  height: 41px;
+  width: 70%;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  float: left;
+  color: #63717f;
+  padding-left: 5%;
+  border-radius: 6px;
+  border: none;
+}
+
+.kategori {
+  background-color: #417D7A;
+  color: white;
+  width: 30%;
+  height: 41px;
+  margin-left: 3%;
+  padding-left: 1%;
+  border-radius: 6px;
+  border: none;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.pro {
+  margin-top: 3%;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.buttonye {
+  width: 90%;
+}
+.buttonyet {
+  background-color: #417D7A;
+  color: white;
+  width: 100%;
+  height: 41px;
+  border-radius: 6px;
+  border: none;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+.cari{
+  margin-top: 3%;
+  border: none;
+  color: white;
+  background-color: #417D7A;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 91px;
+  height: 41px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.buttonyc {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 41px;
+  border-radius: 10px;
+  padding-left: 5%;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  border: none;
+}
+
+.buttonyce {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+  padding-top: 1%;
+  padding-left: 5%;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  border: none;
+}
+
+.kirim{
+  float: right;
+  margin-right: 3%;
+  margin-bottom: 8%;
+  border: none;
+  color: white;
+  background-color: #417D7A;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 97px;
+  height: 41px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.kirim:hover{
+  background: #797979;
+
 }
 
 .button_cari {
@@ -89,13 +318,26 @@
     border-radius: 20px;
 }
 
-/* maps styling */
 .text-center {
     text-align: center;
 }
 
 #map {
+    z-index: 0;
     width: 100%;
+}
+
+section {
+    min-height: 150px;
+}
+
+.destination h3{
+  margin-top: 3%;
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 30px;
+  color: #1A3C40;
+  line-height: 30px;
     height: 500px;
 }
 
@@ -118,8 +360,10 @@ section {
 }
 
 .destination hr {
+  margin-top: 0%;
+  margin-bottom: 3%;
     width: 250px;
-    margin-left: 20px;
+    margin-left: 40%;
     border-top: 4px solid #417D7A;
     border-radius: 2px;
 }
@@ -199,7 +443,20 @@ section {
     width: 100%;
     height: 300px;
   }
+
+.slide-container {
+  z-index: 0;
+}
+.card-wrapper {
+  z-index: 0;
+}
+.card {
+  z-index: 0;
+}
 .kartu {
+    z-index: 0;
+    margin-left: 30%;
+    margin-right: 30%;
     width: 233px;
     height: 242px;
     background-color: #EDE6DB;
@@ -207,6 +464,9 @@ section {
     border-radius: 10px;
 }
 
+.splide__pagination{
+  display:none;
+}
 .swiper-slide {
   border: none;
 }
@@ -278,10 +538,40 @@ section {
   }
   
   .footer {
+    bottom: 0;
+    left: 0;
     width: 100%;
+    height: 180px;
+    background-color: #417D7A;
+  }
+
+  .isif {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 1%;
+  }
+
+  .teksto {
+    padding-top: 5%;
+    margin-left: 30%;
+  }
+
+  .genk {
+    float: left;
+    padding-top: 3%;
+    padding-right: 2%;
+  }
+
+  .kunjung {
+    padding-top: 50px;
+    margin-left: 30%;
+  }
+
+
+   /* width: 100%;
     height: 200px;
     background-color: violet;
-  }
+  } */
 
   .splide {
     margin-top: 400px;
@@ -364,6 +654,7 @@ section {
     text-align: center;
     padding: 30px;
   }
+
   .cards h2.header{
     font-size: 40px;
     margin: 0 0 30px 0;
@@ -374,6 +665,13 @@ section {
     display: flex;
     align-items: center;
   }
+ .contenti > *{
+    flex: 1 1 100%;
+  }
+  .contenti h5{
+    margin: 16px 0;
+  }
+
   .contenti{
     display: flex;
     flex-wrap: wrap;
@@ -449,6 +747,550 @@ section {
       flex-direction: column;
     }
   }
+
+.contenti {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  background:#EDE6DB;
+  border-radius: 10px;
+
+  margin: 20px;
+
+  width: 257px;
+  height: 300px;
+}
+
+.contenti-img-top{
+  border-radius: 10px;
+  width: 257px;
+  height: 157px;
+}
+
+.contenti-title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px; 
+  /* width: 135px;   
+  height: 19px; */
+  color: #1A3C40;
+}
+
+.contenti-text {
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+}
+
+.contenti-textw {
+  text-align: center;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+}
+
+.contenti hr {
+    width: 60%;
+    margin-left: 20%;
+    border-top: 2px solid #1A3C40;
+    color: #1A3C40;
+}
+
+.cardse hr {
+    text-align: center;
+    width: 70%;
+    position: relative;
+    margin-left: 15%;
+    border-top: 4px solid;
+    border-color: black;
+    border-radius: 2px;
+}
+
+/* button di footer */
+.buttonek{
+    border: none;
+    color: black;
+    background-color: #D9D9D9;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 208px;
+    height: 56px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .buttonek:hover{
+    background: #797979;
+  }
+
+  .cardse{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+  }
+
+  .servicese{
+    display: flex;
+    align-items: center;
+  }
+
+  .contentie > *{
+    flex: 1 1 100%;
+  }
+  .contentie h1{
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    color: #417D7A;
+  }
+  .contentie h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #1A3C40;
+  }
+
+  @media (max-width: 900px) {
+    .servicese{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .contentie {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    background:#EDE6DB;
+    border-radius: 10px;
+  
+    margin: 50px;
+  
+    width: 233px;
+    height: 242px;
+    padding-top: 2%;
+  } 
+  .contentie-text {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    color: #417D7A;
+  }
+
+  .dest {
+    max-height: 100vh;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .desti {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .horie {
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    width: 94%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: white;
+  }
+
+  .isik {
+    width: 70%;
+    height: 100%;
+  }
+
+  .judul {
+    margin-top: 5%;
+    margin-left: 8%;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #1A3C40;
+  }
+
+  .isie {
+    margin-top: 3%;
+    margin-left: 8%;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+  }
+
+  .gakir {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .gambarat {
+    width: 100%; 
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://i2.wp.com/blog.tripcetera.com/id/wp-content/uploads/2020/10/pulau-padar.jpg");
+  }
+
+  .konteng {
+    text-align: center;
+    padding-top: 4%;
+  }
+  .h1berita {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .h1kontak {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .buttoneg{
+    border: none;
+    color: black;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 30px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .buttoneg:hover{
+    background: #797979;
+  }
+
+  .nanya {
+    color: #EDE6DB;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+  }
+
+  .lanjut {
+    color: #1A3C40;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .kaki {
+    color: #000000;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    float: left;
+    padding-left: 20%;
+    padding-top: 3%;
+  }
+
+  .kak {
+    float:right;
+    padding-top: 2%;
+    padding-right: 20%;
+  }
+
+  .splide {
+    margin-top: 5%;
+  }
+
+  .sisa hr {
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+  }
+
+  .profil {
+    display: grid;
+    grid-template-columns: 27% 73%;
+    height: 800px;
+    margin: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 9px;
+    background-color: #EDE6DB;
+  }
+
+  .kirpro {
+    width: 100%;
+    height: 100%;
+  }
+
+  .kanpro{
+    height: 100%;
+    padding-top: 10%;
+  }
+
+  .photo {
+    background-image: url("https://i2.wp.com/blog.tripcetera.com/id/wp-content/uploads/2020/10/pulau-padar.jpg");
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 15%;
+  }
+
+  .pohol {
+    margin-top: 15%;
+    width: 100%;
+    height: 40%;
+  }
+
+  .kanpro h1 {
+    margin-left: 4%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #1A3C40;
+  }
+
+  .kanpro hr {
+    margin-left: 4%;
+    width: 90%;
+    height: 3px;
+    color: black;
+  }
+
+  .usnam {
+    width: 27%;
+    height: 41px;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    border: none;
+  }
+
+  .iden {
+    width: 60%;
+    height: 41px;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    border: none;
+  }
+
+  .label {
+    margin-left: 4%;
+    color: #1A3C40;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .ganti{
+    margin-left: 23.5%;
+    margin-top: 88%;
+    border: none;
+    color: white;
+    background-color: #417D7A;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 138px;
+    height: 41px;
+  
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .konfirmasi {
+    float: right;
+    margin-right: 4%;
+    margin-top: 5%;
+    border: none;
+    color: white;
+    background-color: #417D7A;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 131px;
+    height: 41px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;  
+  }    
+    
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      padding-top: 15%;
+      padding-left: 27%;
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+      padding-top: 2%;
+      border-radius: 10px;
+      background-color: #EDE6DB;
+      width: 64%; /* Could be more or less, depending on screen size */
+      height: 80%;
+    }
+
+    .kontener h6 {
+      margin-bottom: 4%;
+      margin-left: 2%;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    }
+
+    .kontener {
+      padding-left: 6%;
+    }
+
+    .login {
+      margin-top: 2%;
+      margin-bottom: 2%;
+      width: 539px;
+      height: 41px;
+      border-radius: 10px;
+      padding-left: 5%;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      border: none;
+    }
+
+    .kirime{
+      margin-left: 1%;
+      margin-top: 2%;
+      border: none;
+      color: white;
+      background-color: #417D7A;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      width: 97px;
+      height: 41px;
+    
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    .kirime:hover{
+      background: #797979;
+    }
+
+    .lupa {
+      margin-left: 4%;
+      color: #000;
+      text-decoration: none;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+    }
+
+    .daftar {
+      float: right;
+      margin-top: 3%;
+      margin-right: 7%;
+      color: #000;
+      text-decoration: none;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    
+    /* The Close Button (x) */
+    .close {
+      margin-left: 90%; 
+      color: #000;
+      font-size: 35px;
+      font-weight: bold;
+      width: fit-content;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: red;
+      cursor: pointer;
+    }
+    
+    /* Add Zoom Animation */
+    .animate {
+      -webkit-animation: animatezoom 0.6s;
+      animation: animatezoom 0.6s
+    }
+    
+    @-webkit-keyframes animatezoom {
+      from {-webkit-transform: scale(0)} 
+      to {-webkit-transform: scale(1)}
+    }
+      
+    @keyframes animatezoom {
+      from {transform: scale(0)} 
+      to {transform: scale(1)}
+    }
+    
 
   
 input{
