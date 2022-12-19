@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form action="/dashboard/news" method="post">
+    <form action="/dashboard/news" method="post" enctype="multipart/form-data">
         @csrf
         <input id="title" name="title" type="text">
         <input id="content" name="content" type="text">
@@ -18,6 +18,10 @@
         <input id="category_id" name="category_id" type="number">
         <input id="date_posted" name="date_posted" type="date">
         <input id="date_updated" name="date_updated" type="date">
+        <div class="mb-3">
+            <label for="image" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="image" name="image">
+        </div>
         <button type="submit"></button>
     </form>
 </body>

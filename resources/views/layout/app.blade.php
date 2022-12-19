@@ -40,9 +40,9 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="/">Beranda <spans class="sr-only">(current)</spans></a>
-            <a class="nav-item nav-link" href="/berita">Berita</a>
-            <a class="nav-item nav-link" href="/destinasi">Destinasi</a>
-            <a class="nav-item nav-link" href="/kontak">Kontak</a>
+            <a class="nav-item nav-link" href="/news">Berita</a>
+            <a class="nav-item nav-link" href="/destinations">Destinasi</a>
+            <a class="nav-item nav-link" href="/contact">Kontak</a>
             {{-- <a class="nav-item nav-link btn btn-primary" id="button" href="#">Masuk</a> --}}
             <button onclick="document.getElementById('id01').style.display='block'" class="kirimi" id="button">Masuk</button>
             <div id="id01" class="modal"> 

@@ -51,7 +51,7 @@ class DestinationController extends Controller
             'file_path' => '',
         ]);
         Destination::create($validatedData);
-        return redirect('/destination')->with('success', 'New transaction has been added!');
+        return redirect('/dashboard/destination')->with('success', 'New transaction has been added!');
 
     }
 

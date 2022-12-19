@@ -40,17 +40,25 @@ class NewsController extends Controller
      */
     public function store(Request $request)
     {
+        // dd($request);
+        // return $request->file('image')->store('news-images');
         $validatedData = $request->validate([
             'title' => 'required',
             'content' => 'required',
+            'image' => 'image|file|max:2048',
             'status' => 'required',
             'author_id' => 'required',
             'category_id' => 'required',
             'date_posted' => 'required',
             'date_updated' => 'required',
         ]);
+
+        if($request->file('image')){
+            $validatedData['image'] = $request->file('image')->store('news-images');
+        }
+
         News::create($validatedData);
-        return redirect('/news')->with('success', 'New transaction has been added!');
+        return redirect('/dashboard/news')->with('success', 'New transaction has been added!');
 
     }
 

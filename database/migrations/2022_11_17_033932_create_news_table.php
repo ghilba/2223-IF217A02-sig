@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('content');
+            $table->string('image')->nullable();
             $table->date('date_posted');
             $table->date('date_updated');
             $table->integer('status');
