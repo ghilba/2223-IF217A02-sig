@@ -46,7 +46,8 @@
             {{-- <a class="nav-item nav-link btn btn-primary" id="button" href="#">Masuk</a> --}}
             <button onclick="document.getElementById('id01').style.display='block'" class="kirimi" id="button">Masuk</button>
             <div id="id01" class="modal"> 
-              <form class="modal-content animate" action="/action_page.php" method="post">
+              <form class="modal-content animate" action="/login" method="post">
+                @csrf
                 <div onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</div>
                 <div class="kontener">
                   <h6>MASUK DESTINASI</h6>

@@ -1,8 +1,7 @@
 <?php
 
-use App\Http\Controllers\DestinationController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\NewsController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,34 +15,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'home']);
-Route::get('/news', [HomeController::class, 'news']);
+Route::get('/',[HomeController::class, 'home']);
 
+Route::get('/dashboard', function () {
+    return view('dashboard'); 
+})->middleware(['auth', 'verified'])->name('dashboard');
 
-
-Route::resource('dashboard/destination', DestinationController::class);
-Route::resource('dashboard/news', NewsController::class);
-
-// Route::get('/berita', function () {
-//     return view('berita');
-// });
-
-Route::get('/destinasi', function () {
-    return view('destinasi');
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/kontak', function () {
-    return view('kontak');
-});
-
-Route::get('/masuk', function () {
-    return view('masuk');
-});
-
-Route::get('/profile', function () {
-    return view('profile');
-});
-
-// Route::get('/', [MapController::class, 'index']);
-
-
+require __DIR__.'/auth.php';
