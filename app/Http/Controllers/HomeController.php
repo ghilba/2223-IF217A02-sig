@@ -13,7 +13,7 @@ class HomeController extends Controller
     {
         $destinations = DB::table('destinations')->simplePaginate(6);
         return view('home', [
-            'destinations' => $destinations, 
+            'destinations' => $destinations,
         ]);
     }
 
@@ -23,6 +23,23 @@ class HomeController extends Controller
         // $news = DB::table('news')->sortBy ->simplePaginate(4);
         return view('berita', [
             'news' => $news,
+        ]);
+    }
+
+    public function destination(Request $request)
+    {
+        $destinations = Destination::simplePaginate(4)->sortByDesc('created_at');
+        // $news = DB::table('news')->sortBy ->simplePaginate(4);
+        // $destinations = Destination::where('title', 'LIKE', '%' . 'voluptas' . '%');
+
+        if ($request->has('search')) {
+            $destinations = Destination::where('title', 'ILIKE', '%' . request('search') . '%')
+                ->where('province', 'ILIKE', '%' . request('province') . '%')
+                ->orWhere('city', 'ILIKE', '%' . request('search') . '%')
+                ->get();
+        }
+        return view('destinasi', [
+            'destinations' => $destinations,
         ]);
     }
 }
