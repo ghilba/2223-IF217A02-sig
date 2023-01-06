@@ -38,8 +38,23 @@ class HomeController extends Controller
                 ->orWhere('city', 'ILIKE', '%' . request('search') . '%')
                 ->get();
         }
-        return view('destinasi', [
-            'destinations' => $destinations,
-        ]);
+        if ($request->has('coordinates')) {
+            $coordinates = $request->coordinates;
+            
+            return view('destinasi', [
+                'destinations' => $destinations,
+                'coordinates' => $coordinates,
+                'zoom' => 50,
+
+            ]);
+        } else {
+            return view('destinasi', [
+                'destinations' => $destinations,
+                'coordinates' => '-7.4852045,109.2617381,7',
+                'zoom' => 10, 
+            ]);
+        }
+
+        
     }
 }

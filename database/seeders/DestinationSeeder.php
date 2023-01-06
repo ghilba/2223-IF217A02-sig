@@ -21,7 +21,7 @@ class DestinationSeeder extends Seeder
             'city' => 'Bandung',
             'province' => 'Jawa Barat',
             'country' => 'Indonesia',
-            'coordinates' => '-6.9324097,107.7136723',
+            'coordinates' => '-7.4852045,109.2617381,7',
             'file_path' => 'Wahana Bermain',
         ]);
     }
